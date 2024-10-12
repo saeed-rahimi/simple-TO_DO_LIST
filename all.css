@@ -3,20 +3,25 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+   background-color: blueviolet;
     border-radius: 10px;
-    background-color: #f9f9f9;
+ 
   }
   input, button {
     padding: 10px;
     margin: 5px;
   }
   button {
-    background-color: #28a745;
+    background-color: #385828;
     color: white;
     border: none;
     cursor: pointer;
-  }
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
   button:hover {
     background-color: #218838;
   }
